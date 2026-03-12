@@ -36,11 +36,19 @@ Scanner sc = new Scanner(System.ln): String nome = sc.nextLine()
 // é um objeto da classe scanner (controla o teclado)
 
 
+//Java consideram ponto "." como separador decimal
 
 
+// || é ou em um if (esse || aquele)
+// && and
+// ! Not
+// ^ XOR
+// == equal
+// != diference
 
 
-
+// FOR - While - Dowhile
+// Importante fechar o teclado
 
 
 

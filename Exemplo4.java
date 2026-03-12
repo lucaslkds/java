@@ -12,6 +12,7 @@ public class Exemplo4 {
          
         while (numero > 0) {
                 System.out.println(nome);                
+                //Duas formas
                 //numero--;
                  numero = numero -1;
         }
