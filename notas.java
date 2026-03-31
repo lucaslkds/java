@@ -52,6 +52,59 @@ Scanner sc = new Scanner(System.ln): String nome = sc.nextLine()
 
 
 
+opc = Character.toUpperCase(tcl.next().charAt(0));
+//pegar um caracter maiusculo ou minusculo
 
 
+        } while (nome.isBlank());
+//impedir que fique sen nada
+
+            qtdNumeros++;
+            somaNumeros += numero;
+//soma de todos que entram pelo while, dentro do while e soma geral
+
+
+     if (numero%2==0)
+// par check
+
+
+/* In Java, return is used to finish a method.
+
+public static int soma(int a, int b) {
+    return a + b;
 }
+public static void verificar(int n) {
+    if (n < 0) {
+        System.out.println("Numero invalido");
+        return;
+    }
+
+    System.out.println("Numero valido");
+}
+*/
+
+        if (s.isBlank() || s.isEmpty() || s.length()<3) {
+            retorno = false;
+// valida o nome com mais regras
+
+
+
+        switch (op) {
+            case '+':
+                resultado = calc.somar(n1, n2);
+                break;
+            case '-':
+                resultado = calc.subtrair(n1, n2);
+                break;
+            case '*':
+                resultado = calc.multiplicar(n1, n2);
+                break;
+            case '/':
+                resultado = calc.dividir(n1, n2);
+                break;
+            default:
+                System.out.println("Operador inválido!");
+                tcl.close();
+                return;
+
+// calculadora

@@ -16,7 +16,7 @@ public class Senha {
         
 
         System.out.print("Qual a sua senha?:");
-        verificar_senha = teclado.nextLine()
+        verificar_senha = teclado.nextLine();
 
         
         
