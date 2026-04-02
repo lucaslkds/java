@@ -108,3 +108,24 @@ public static void verificar(int n) {
                 return;
 
 // calculadora
+
+
+
+Atributos privados
+gets and sets privados
+
+private class
+
+        public void set idtipo ();
+        this.idtipo(id tipo do objeto) = idtipo;
+
+
+        public id idtipo();
+        
+classe veiculo
+classe Motorista todo Motorista tem um veiculo
+classe Appmotorista que usar as duas outras
+deixar os atributos private
+get e set public
+usar ambos
+
