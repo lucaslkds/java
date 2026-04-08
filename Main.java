@@ -1,25 +1,26 @@
-package exe1;
+import java.util.Scanner; // Importa a classe Scanner para ler dados do teclado
+
 public class Main {
     public static void main(String[] args) {
-        ListaDeChamadas lista = new ListaDeChamadas();
+        
+        // Cria o objeto Scanner para entrada de dados
+        Scanner scanner = new Scanner(System.in);
 
-        // Adicionando clientes
-        lista.adicionarCliente("Carlos Silva", "99999-1111");
-        lista.adicionarCliente("Ana Souza", "98888-2222");
-        lista.adicionarCliente("Bruno Lima", "97777-3333");
-        lista.adicionarCliente("Mariana Costa", "96666-4444");
+        // Cria um objeto da classe Pessoa
+        Pessoa pessoa = new Pessoa();
 
-        // Listando todos
-        lista.listarTodos();
+        // Pede o nome ao usuário
+        System.out.print("Digite seu nome: ");
+        pessoa.setNome(scanner.nextLine()); // Armazena o nome digitado no atributo nome
 
-        // Marcando alguns como contatados
-        lista.marcarComoContatado("98888-2222");
-        lista.marcarComoContatado("96666-4444");
+        // Pede a idade ao usuário
+        System.out.print("Digite sua idade: ");
+        pessoa.setIdade(scanner.nextInt()); // Armazena a idade digitada no atributo idade
 
-        // Listando apenas pendentes
-        lista.listarPendentes();
+        // Chama o método falar para mostrar a apresentação
+        pessoa.falar();
 
-        // Relatório final
-        lista.relatorioFinal();
+        // Fecha o Scanner
+        scanner.close();
     }
 }
