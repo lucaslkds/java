@@ -129,3 +129,49 @@ deixar os atributos private
 get e set public
 usar ambos
 
+notas
+
+1°prova A2 é uma prova de conceito
+20% muito fracil
+30% dificil
+50% é de acordo com a aula
+
+2° prova é de programação
+A2 em grupo para falar do codigo
+indice de eficacia de resposta do professor
+de 0 a 1
+
+
+Abstração - é qualquer um entender o programa, deixar o mais simples para isso
+é deixar perto da ideia de como vai fazer. o como vai ser dentro da classe, mas a ideia fica na chamada da classe
+abstrair a ideia do projeto e aplicar a classe.
+
+Encapsulamento - Proteger os dados dentro de um objeto, permitindo acessalo apenas por métodos especificos
+é a idea de deixar classes específicas para trabalhar em problemas especificos do programa e não ter funções soltas
+
+Herança - permite criar novas classes a partir de uma já existente, não podendo interagir entre herança e herdado
+
+polimórfismo - Permite quee objetos de diferentes classes sejam tratados como objetos da mesma forma
+Exemplo do mecanico que a classe principal tem um metodo que pode ser override pelas classes filhos
+Para uma mesma classe podemos ter vários contrutores, mas todos eles tem o nome da classe 
+
+Vantagens
+Reutilização de código
+Facilita a manutenção e escalabilidade
+Melhor modelagem de problemas do mundo real
+
+contrutor tem o mesmo nome da Classe
+
+Explicando o construtor
+
+public carro(String modelo, String cor) // aqui ele separa espaço na memoria
+            this.modelo = modelo;       // aqui o primeir é a classe, a que foi reservado e aplica oq está em outro código. e o segundo é oq vai ser atribuido
+            this.cor = cor;             // aqui o primeir é a classe e o segundo é oq vai ser atribuido
+
+private - ninguem acessa
+protect - somente as classes filhos acessam e modificam
+public  - todas as classes acessam e modificam 
+
+O java disponbiliza um construtor para cada classe
+se não instanciarmos ele fica como padrão
+new.nome_da_classe()
