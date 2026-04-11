@@ -197,4 +197,12 @@ Definição de polimórfismo, herença, Abstração e Encapsulamento
 
 Override
 
+Herança, precisamos instaciar a super classe para instaciar a sub classe
+podemos escrever super(modelo) - 
+
+2 tipos de polimórfismo
+estatico ou Sobrecarga (metodos com o mesmo nome na mesma classe, mas com assinaturas diferentes) e
+
+direto, dinamico ou sobrescrita (override de uma classe pai ou do próprio Java)
+polimórfismo dinamico é uma forma de abstrair, ao inves de ter 2 metodos quase identicos, vale a pena usar o polimórfismo
 
