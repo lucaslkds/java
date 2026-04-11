@@ -175,3 +175,26 @@ public  - todas as classes acessam e modificam
 O java disponbiliza um construtor para cada classe
 se não instanciarmos ele fica como padrão
 new.nome_da_classe()
+
+
+
+Injeção de código
+O java ajuda com alguns erros e corrige por conta
+como uma variavel string+int se tornar somente uma string
+tostring - função utilizada para tranformar a variavel em String
+
+
+
+prova
+
+Diferença de public, private e protect
+
+private - ninguem acessa
+protect - somente as classes filhos acessam e modificam
+public  - todas as classes acessam e modificam
+
+Definição de polimórfismo, herença, Abstração e Encapsulamento
+
+Override
+
+

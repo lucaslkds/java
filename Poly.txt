@@ -1,0 +1,29 @@
+Poly
+
+Sim e não, 50%
+
+deixar classes já criadas para facilitar ao criador do market
+Futebol, Cs, Valorant, Eleição, 
+
+Definir metodos de validação do resultado.
+HLTV, Liquipidia, site do gov de Eleição
+
+Definir taxa
+é melhor ao retirar o dinheiro?
+é melhor ao depositar o dinheiro?
+é melhor na % das cotas?
+
+
+
+Metodo de compra e venda
+
+classe Usuario - tem os dados de tudo q o usuario tem
+classe saldo - permite apostas com o saldo
+classe deposito - permite depositos
+
+Focar na copa do mundo e eleições - estrategia de engajamento do publico
+
+Classe dashboard - coleta os dados da plataforma
+
+Login - permite o Login e o logout - valida senha e email novo
+Mudar senha - valida email registrado, senha e permite alteração da senha
