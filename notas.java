@@ -206,3 +206,42 @@ estatico ou Sobrecarga (metodos com o mesmo nome na mesma classe, mas com assina
 direto, dinamico ou sobrescrita (override de uma classe pai ou do próprio Java)
 polimórfismo dinamico é uma forma de abstrair, ao inves de ter 2 metodos quase identicos, vale a pena usar o polimórfismo
 
+Diagrama de classes
+UML
+Criação e interação de classes
+Apresenta uma visão estatica dos objetos
+
+defict 
+defict cognitivo
+
++ public - todos acessam
+# protect - ela e as filhas
+- private - somente ela
+
+principais tipos de relacionamentos de classes
+
+associação - cliente e dvd alugado
+
+agregação/composição - ex uma classe time composta de atletas - necessidade de agregação de outra classe - receita com os ingredientes
+
+Herança - veiculo e classes filhas que são mais especialista (motos, carros, onibus)
+
+Depedencia - uma classe que depende de outra para aplicar seus metodos
+
+Especiaização/generalização - classes mae e filhas
+
+objetos se comunicam por metodos e atributos
+um atributo pode ser uma classe, já que a classe é um tipo de dados
+
+Associação binaria
+
+cardinalidade (multiplicidade)
+0 - 1 - CPF 
+1 - 1 - pessoa para documento
+0 - * - pessoa e mais de um endereço
+1 - * - cliente pedidos
+3 - 5 - casos muito especificos
+
+principio de callback em software
+
+
